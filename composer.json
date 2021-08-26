@@ -1,0 +1,24 @@
+{
+    "name": "jovix/dataforseo-clientv3",
+    "description": "PHP Client for DataForSeo",
+    "minimum-stability": "dev",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "symfony/var-dumper": "^5.3.6",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Vitaliy Lyabakh",
+            "email": "igrolan@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "DFSClientV3\\": "src/DFSClient/"
+        }
+    }
+}
